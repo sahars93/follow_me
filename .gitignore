@@ -1,0 +1,17 @@
+# ROS build and development
+build/
+devel/
+install/
+*.pyc
+__pycache__/
+*.swp
+models/*.onnx
+
+# ROS logs
+log/
+logs/
+*.log
+
+# VS Code / PyCharm
+.vscode/
+.idea/
