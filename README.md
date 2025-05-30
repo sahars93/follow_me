@@ -10,7 +10,7 @@ Clone this repository into your ROS workspace and build it:
 
 ```bash
 cd ~/catkin_ws/src
-git clone https://github.com/<your-username>/follow_me.git
+git clone https://github.com/sahars93/follow_me.git
 cd ..
 catkin_make
 source devel/setup.bash
@@ -23,7 +23,7 @@ source devel/setup.bash
 Once you have recorded your demonstration data — including UWB ranges and angles — you can train the model using:
 
 ```bash
-python3 training/train_mlp.py
+python3 train/train_mlp.py
 ```
 
 The trained model will be saved in ONNX format inside the `models/` directory.
