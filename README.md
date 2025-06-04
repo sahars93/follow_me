@@ -70,7 +70,7 @@ This allows you to drive the leader robot, while the follower robot uses the UWB
 Once you have recorded your demonstration data — including UWB ranges and angles — you can train the model using:
 
 ```bash
-python3 train/train_mlp.py
+python3 train/mlp.py
 ```
 
 The trained model will be saved in ONNX format inside the `models/` directory.
