@@ -64,7 +64,7 @@ roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch cmd_vel:=/tb3_2/cmd_vel
 This allows you to drive the leader robot, while the follower robot uses the UWB-based model to follow.
 
 <div align="center">
-  <img src="imgs/gazebo.gif" alt="Gazebo test with Turtlebot">
+  <img src="imgs/gazebo.gif" alt="Gazebo test with two Turtlebots">
 </div>
 ---
 
