@@ -1,5 +1,0 @@
-<launch>
-    <node name="mlp_controller" pkg="follow_me" type="mlp_controller.py" output="screen" />
-    <node pkg="follow_me" type="Gazebo_uwb_publisher.py" name="Gazebo_uwb_publisher" output="screen"/>
-
-</launch>
